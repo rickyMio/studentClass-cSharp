@@ -35,11 +35,7 @@ namespace studentClass
         {
             get
             {
-
-            }
-            set
-            {
-
+                return name + surname + age;
             }
         }
 
@@ -49,5 +45,7 @@ namespace studentClass
             _surname = surname;
             _age     = age;
         }
-    }
+        
+        public string 
+    y}
 }
