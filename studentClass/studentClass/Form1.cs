@@ -16,5 +16,12 @@ namespace studentClass
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Person person1 = new Person("Riccardo", "Miosi", 16);
+            Student student1 = new Student("Tizio", "Caio", 17, "4^E");
+            //person1.describe();
+        }
     }
 }

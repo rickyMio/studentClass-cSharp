@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -45,6 +44,7 @@ namespace studentClass
             _name    = name;
             _surname = surname;
             _age     = age;
+            describe();
         }
         
         public string describe()
