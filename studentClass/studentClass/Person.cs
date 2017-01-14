@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -46,6 +47,14 @@ namespace studentClass
             _age     = age;
         }
         
-        public string 
-    y}
+        public string describe()
+        {
+            string output = "NOME:       " + name    + "\r\n";
+            output       += "COGNOME:    " + surname + "\r\n";
+            output       += "ETA':       " + age     + "\r\n";
+            output       += "C. FISCALE: " + cf;
+
+            return output;
+        }
+    }
 }
